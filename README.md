@@ -19,7 +19,7 @@ Kokopelli partially re-written in C with imgui interface and lua 5.1 binding ins
 - PCB library porting from python to lua
 - Combine preview window with code window while maintaining an option for docking and undocking when required.
 - Fix clock.lua demo, hour hand is distorted!
-- Optimize parallel processing of render tasks, optionaly send render task to external cluster/render farm eg. DrQueue integration for fast computation of the solver algos.
+- Optimize parallel processing of render tasks, optionaly send render task to external cluster/render farm eg. DrQueue integration for fast computation of the solver algos. (avoiding GPU related complexities, prefer horizontal scaling for parallel processing eg small Raspberrypi cluster on DrQueue is enough for most complex shapes)
 - Implement background dynamic rendering so that voxels are optimised for final export and display
 - Someday change the scripting from lua to tiny-scheme and add generic CAM capability for g-code output to fit custom kinematics and machine configurations.
 - Train an LLM to generate CAD designs based on the scripting language (lol)
