@@ -25,7 +25,7 @@ Kokopelli partially re-written in C with imgui interface with lua 5.1 binding in
 
 # To build just CMake everything!
 
-***dependencies to build are opengl, glfw, libpng, lua 5.1 ...etc all inside Cmake script files.***
+***dependencies to build are opengl, glfw, libpng, lua 5.1 , imgui, imgui-color-text-edit ...etc all found inside CMake script files.***
 
 once built run ***frep <filename.lua>*** to execute existing script or just run ***frep*** without any argumnent to open a blank screen.
 
