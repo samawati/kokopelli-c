@@ -1,5 +1,5 @@
 # kokopelli-c
-Kokopelli partially re-written in C with imgui interface with lua 5.1 binding instead of python
+Kokopelli partially re-written in C with imgui interface and lua 5.1 binding instead of python
 
 ## Gears demo from original python to lua
 
