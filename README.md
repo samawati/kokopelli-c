@@ -23,9 +23,9 @@ Kokopelli partially re-written in C with imgui interface with lua 5.1 binding in
 - Someday change the scripting from lua to tiny-scheme and add generic CAM capability for g-code output to fit custom kinematics and machine configurations.
 - Train an LLM to generate CAD designs based on the scripting language (lol)
 
-# To build just Cmake everything!
+# To build just CMake everything!
 
-# opengl , glfw, libpng, lua 5.1 ...etc all inside Cmake script files.
+*** dependancies to build are opengl, glfw, libpng, lua 5.1 ...etc all inside Cmake script files. ***
 
 once built run ***frep <filename.lua>*** to execute existing script or just run ***frep*** without any argumnent to open a blank screen.
 
