@@ -17,6 +17,7 @@ Kokopelli partially re-written in C with imgui interface with lua 5.1 binding in
 ### Todo (hopefully since I am currently done as it is):
 
 - PCB library porting from python to lua
+- Fix clock.lua demo, hour hand is distorted!
 - Fix parallel processing of render tasks
 - Implement background dynamic rendering so that voxels are optimised for final export and display
 - Fix all the remaining bugs.
