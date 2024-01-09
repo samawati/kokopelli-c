@@ -21,9 +21,9 @@ Kokopelli partially re-written in C with imgui interface and lua 5.1 binding ins
 - Fix clock.lua demo, hour hand is distorted!
 - Optimize parallel processing of render tasks, optionaly send render task to external cluster/render farm eg. DrQueue integration for fast computation of the solver algos.
 - Implement background dynamic rendering so that voxels are optimised for final export and display
-- Fix all the remaining bugs.
 - Someday change the scripting from lua to tiny-scheme and add generic CAM capability for g-code output to fit custom kinematics and machine configurations.
 - Train an LLM to generate CAD designs based on the scripting language (lol)
+- Fix all the remaining bugs.
 
 # To build, just CMake everything!
 
