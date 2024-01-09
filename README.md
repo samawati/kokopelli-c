@@ -29,4 +29,4 @@ Kokopelli partially re-written in C with imgui interface with lua 5.1 binding in
 
 once built run ***frep <filename.lua>*** to execute existing script or just run ***frep*** without any argumnent to open a blank screen.
 
-Use, update, share and enjoy! (as per the original authors license), mostly to learn CSG and CAD/CAM developpment.
+Use, update, share and enjoy! (as per the original authors license), mostly to learn CSG and CAD/CAM dev.
