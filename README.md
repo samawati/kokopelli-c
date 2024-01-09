@@ -14,7 +14,7 @@ Kokopelli partially re-written in C with imgui interface and lua 5.1 binding ins
 ![alt text](https://github.com/samawati/kokopelli-c/blob/main/screenshots/castle-demo.png?raw=true)
 
 
-### Todo (hopefully since I am currently done as it is):
+### Todo (hopefully someday since I am currently done as it is):
 
 - PCB library porting from python to lua
 - Fix clock.lua demo, hour hand is distorted!
