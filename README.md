@@ -1,14 +1,20 @@
 # kokopelli-c
 Kokopelli partially re-written in C with imgui interface with lua 5.1 binding instead of python
 
+## Gears demo from original python to lua
+
 ![alt text](https://github.com/samawati/kokopelli-c/blob/main/screenshots/gears-demo.png?raw=true)
 
+## Alien demo from original python to lua
+
 ![alt text](https://github.com/samawati/kokopelli-c/blob/main/screenshots/alien-demo.png?raw=true)
+
+## Castle demo from original python to lua
 
 ![alt text](https://github.com/samawati/kokopelli-c/blob/main/screenshots/castle-demo.png?raw=true)
 
 
-### Todo ### (hopefully since I am currently done as it is):
+### Todo (hopefully since I am currently done as it is):
 
 PCB library porting from python to lua
 Fix parallel processing of render tasks
@@ -22,4 +28,4 @@ Use update, share and enjoy! , mostly to learn CSG and CAD/VAM developpment.
 
 Cmake everything!
 
-Deps : usual opengls , glfw stuff, libpng, lua ...etc all inside Cmake script files.
+## Deps : usual opengls , glfw stuff, libpng, lua ...etc all inside Cmake script files.
